@@ -98,6 +98,10 @@ export default {
     register: function() {
       this.sendRegisterRequest(this.details).then(() => {
         this.$router.push({ name: "Home" });
+        // this.$router.push("/");
+        // this.$router.push({ path: '/' })
+        // this.$router.push({ name: 'Home' })
+        console.log('asd')
       });
     }
   }
